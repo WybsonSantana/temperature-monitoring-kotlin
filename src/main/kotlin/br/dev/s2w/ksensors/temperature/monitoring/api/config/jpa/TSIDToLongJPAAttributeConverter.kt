@@ -1,4 +1,4 @@
-package br.dev.s2w.jsensors.temperature.monitoring.api.config.jpa
+package br.dev.s2w.ksensors.temperature.monitoring.api.config.jpa
 
 import io.hypersistence.tsid.TSID
 import jakarta.persistence.AttributeConverter

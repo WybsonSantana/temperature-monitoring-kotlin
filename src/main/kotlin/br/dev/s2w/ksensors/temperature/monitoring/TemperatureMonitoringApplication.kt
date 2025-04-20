@@ -1,4 +1,4 @@
-package br.dev.s2w.jsensors.temperature.monitoring
+package br.dev.s2w.ksensors.temperature.monitoring
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

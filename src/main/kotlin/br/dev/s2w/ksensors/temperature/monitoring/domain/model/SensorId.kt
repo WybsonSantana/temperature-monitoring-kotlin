@@ -1,4 +1,4 @@
-package br.dev.s2w.jsensors.temperature.monitoring.domain.model
+package br.dev.s2w.ksensors.temperature.monitoring.domain.model
 
 import io.hypersistence.tsid.TSID
 import jakarta.persistence.Embeddable

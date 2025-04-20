@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="TemperatureMonitoringApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="br.dev.s2w.jsensors.temperature.monitoring.TemperatureMonitoringApplicationKt" />
+    <option name="MAIN_CLASS_NAME" value="br.dev.s2w.ksensors.temperature.monitoring.TemperatureMonitoringApplicationKt" />
     <module name="temperature-monitoring.main" />
     <shortenClasspath name="NONE" />
     <option name="VM_PARAMETERS" value="-XX:MaxRAM=256M" />

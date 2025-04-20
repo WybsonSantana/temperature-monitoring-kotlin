@@ -1,4 +1,4 @@
-package br.dev.s2w.jsensors.temperature.monitoring.api.config.jackson
+package br.dev.s2w.ksensors.temperature.monitoring.api.config.jackson
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.JsonSerializer
