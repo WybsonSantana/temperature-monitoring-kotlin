@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Application
+class TemperatureMonitoringApplication
 
 fun main(args: Array<String>) {
-	runApplication<Application>(*args)
+	runApplication< TemperatureMonitoringApplication>(*args)
 }
