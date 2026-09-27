@@ -7,6 +7,7 @@ import br.dev.s2w.ksensors.temperature.monitoring.domain.repository.SensorMonito
 import io.hypersistence.tsid.TSID
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
+import org.springframework.web.server.ResponseStatusException
 
 @RestController
 @RequestMapping("/api/sensors/{sensorId}/monitoring")
@@ -29,6 +30,7 @@ class SensorMonitoringController(
     @ResponseStatus(HttpStatus.NO_CONTENT)
     fun enable(@PathVariable sensorId: TSID) =
         findByIdOrDefault(sensorId)
+            .also { if (it.enabled) throw ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY) }
             .copy(enabled = true)
             .also(sensorMonitoringRepository::saveAndFlush)
 
